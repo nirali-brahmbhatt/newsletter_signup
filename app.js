@@ -34,10 +34,10 @@ app.post("/",function(req,res){
 
     const jsonData = JSON.stringify(data);
 
-    const url ="https://us1.api.mailchimp.com/3.0/lists/138922819f"
+    const url ="https://us1.api.mailchimp.com/3.0/lists/138#####9f"
     const options ={
       method:"POST",
-      auth:"nirali:94867555262a42cb70ed494ffd9d13cd-us1"
+      auth:"nirali:948##########2cb70ed494ffd9d13cd-us1"
     }
 
     const request = https.request(url,options,function(responce){
@@ -67,7 +67,7 @@ app.listen(process.env.PORT || 3000,function(){
 });
 //
 // list id
-// 138922819f
+// 138#####9f
 //
 // APIkey
-// 94867555262a42cb70ed494ffd9d13cd-us1
+// 948##########2cb70ed494ffd9d13cd-us1
